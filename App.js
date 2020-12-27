@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <a class="navbar-brand">Made by<br></br><span class="blue-text">Matylda Made'J</span></a>
         <img src={logo} className="App-logo" alt="logo" />
         <div className="balloon-animation">
           <Animated
@@ -14,6 +15,13 @@ function App() {
             src='/cloud.png'
             ratioX="0.2"
             ratioY="0.23"
+          />
+
+          <Animated
+            className="flying-sun"
+            src='/sun-42270_1280.png'
+            ratioX="0.07"
+            ratioY="0.3"
           />
           <Animated
             className="flying-cloud"
@@ -46,6 +54,8 @@ function App() {
             ratioX="0.07"
             ratioY="0.3"
           />
+
+          
         </div>
 
       </header>
