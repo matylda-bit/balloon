@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #238b8b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,6 +31,9 @@
     transform: rotate(360deg);
   }
 }
+.blue-text {
+  color: #61dafb;
+}
 
 .balloon-animation {
   position: relative;
@@ -39,7 +42,12 @@
   width: 100%;
   overflow: hidden;
 }
-
+.flying-sun {
+  position: absolute;
+  width: 15%;
+  top: 2%;
+  left: 5%;
+}
 .flying-cloud {
   position: absolute;
   width: 20%;
